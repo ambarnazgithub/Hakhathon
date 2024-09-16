@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+   
+   
+}
+
+/* Style for the navbar */
+.navbar {
+    top: 60px;
+    gap: 70px;
+    height: 68px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Vertically align items */
+    padding: 0 100px;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+
+/* Logo and text */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    
+    
+
+ 
+    
+   
+}
+
+.nav-logo img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px; /* Space between image and text */
+    padding-bottom: 7px;
+}
+
+.nav-logo p {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* Navigation items */
+.nav-item {
+    display: flex;
+    list-style: none;
+    margin-left: 0;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    
+}
+
+.nav-item li {
+    margin: 0 25px;
+    
+    font-size: 18px;
+}
+
+.nav-item li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn.btn-outline-dark {
+ 
+  
+   margin-bottom: 10px;
+}
+.hero-section{
+    width: 1440px;
+height:515px;
+padding: 0px 100px 0px 100px;
+margin-top: 100px;
+margin-bottom: 100px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.hero-sec1{
+    width: 531px;
+height: 481px;
+gap: 35px;
+opacity: 0px;
+
+
+
+
+}
+.sec1-h{
+   
+font-family:"Space Grotesk";
+font-size: 60px;
+font-weight: 500;
+line-height: 76.56px;
+text-align: left;
+margin: 0; /* Remove default margin */
+padding: 0; /* Remove default padding */
+
+
+
+}
+.sec1-p{
+   
+    font-family:"Space Grotesk";
+  
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+margin: 20px 0 0 0; /* Add space above the paragraph */
+padding: 0; /* Remove default padding */
+}
+.custom-btn{
+    margin-top: 10px;
+}
+
+
+.hero-sec2{
+    background-image: url("./image/Illustration.png");
+    background-size: cover;
+    width: 600.46px;
+height: 515px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+padding-right: 100px;
+margin-right: 80px;
+}
+.logo-type {
+    display: flex;
+    width: 1440px; /* Corrected width */
+    height: 48px;
+    padding: 0 120px; /* Adjusted padding to be uniform */
+    gap: 20px; /* Space between images */
+    justify-content: space-between;
+    opacity: 1; /* Set opacity to 1 to make sure images are visible */
+    
+}
+
+
+.logo-type img {
+    height: 30px;
+    width: 126.37px; /* Adjust height as needed */
+
+}
+.subheading{
+display: flex;
+width: 1440px; /* Corrected width */
+height: 48px;
+padding: 0 120px; /* Adjusted padding to be uniform */
+gap: 20px; /* Space between images */
+justify-content: space-between;
+opacity: 1; /* Set opacity to 1 to make sure images are visible */
+
+margin-top: 100px;
+
+}
+
+
+.Services{
+    width: 178px;
+height: 51px;
+gap: 0px;
+opacity: 0px;
+background-color:#B9FF66 ;
+border-radius: 10px;
+
+
+}
+
+.Services h2{
+    font-family: "Space Grotesk";
+
+font-size: 40px;
+font-weight: 500;
+line-height: 51.04px;
+text-align: left;
+padding-left: 10px;
+
+
+}
+.subheading p{
+ 
+font-family:" Space Grotesk";
+font-size: 18px;
+font-weight: 400;
+line-height: 22.97px;
+text-align: left;
+
+}
+.head-text p{
+    
+    font-family:" Space Grotesk";
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove padding to ensure no extra space */
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+   
+.head-text {
+    text-align: left; /* Ensure text is aligned to the left */
+    margin-right: 500px; /* Remove default margin from the container */
+    padding: 0; /* Remove padding from the container */
+    
+}
+.box{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.box-1{
+    display: flex;
+    width:600px;
+    height: 300px;
+    border: 2px solid grey;
+    border-radius: 40px;
+    background-color: rgb(243, 239, 239);
+    box-shadow: 0px 10px 0px 0px rgb(59, 58, 58);
+}
+.h15{
+    display: block;
+    font-family: sans-serif;
+    background-color: greenyellow;
+    margin-left: 50px;
+    margin-top: 40px;
+    max-width: 230px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.h14{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 120px;
+    max-width: 250px;
+}
+.arrow{
+    margin-right: 15px;
+}
+.img-2{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 220px;
+    height: 200px;
+}
+.conianer{
+    display: block;
+}
+.box-2{
+    display: flex;
+    margin-left: 120px;
+    width: 600px;
+    height: 300px;
+    border: 2px solid grey;
+    border-radius: 40px;
+    background-color: greenyellow;
+    box-shadow: 0px 10px 0px 0px rgb(59, 58, 58);
+}
+.h15{
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-top: 40px;
+    max-width: 250px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.h16{
+    width: 440px;
+    height: 50px;
+    background-color: greenyellow;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+        height: auto;
+        gap: 20px;
+    }
+
+    .nav-logo {
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .nav-item {
+        flex-direction: column;
+        margin-left: 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .nav-item li {
+        margin: 10px 0;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 0 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .hero-sec1 {
+        width: 100%;
+        height: auto; /* Allow height to adjust automatically */
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-logo p {
+        font-size: 28px;
+    }
+
+    .nav-item li {
+        font-size: 16px;
+    }
+
+    .btn.btn-outline-dark {
+        margin-bottom: 5px;
+    }
+}
+
